@@ -1,6 +1,10 @@
 # MacOS
 .DS_Store
 
+# Lockfiles
+yarn.lock
+package-lock.json
+
 # Logs
 logs
 *.log
