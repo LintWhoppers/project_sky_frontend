@@ -13,8 +13,8 @@ module.exports = {
   daisyui: {
     themes: [
       "cupcake",
-      "night",
+      "halloween",
     ],
-    darkTheme: "night",
+    darkTheme: "halloween",
   },
 }
