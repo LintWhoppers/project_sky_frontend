@@ -581,10 +581,11 @@
     </footer>
 
     <!-- Go to Top -->
-    <div class="fixed bottom-28 rounded-full grid place-items-center right-[20px] z-[9999] w-[48px] h-[48px]"
-        id="backToTop">
-        <a class="rounded-full bg-primary text-primary-content grid place-items-center w-[48px] h-[48px]"
-            href="#top"><img src="images/icons/icon-up.svg" alt="to top icon" /></a>
+    <div class="fixed bottom-28 animate-bounce rounded-full grid place-items-center right-[20px] z-[9999] w-[48px] h-[48px]">
+        <button class="rounded-full hidden bg-primary text-primary-content place-items-center w-[48px] h-[48px]"
+            onclick="topFunction()" id="backToTop" title="Go to top">
+            <i class="fa-solid fa-arrow-up-long fa-xl"></i>
+        </button>
     </div>
 
     <!-- JavaScript -->
