@@ -19,3 +19,8 @@
     display: inline !important;
     padding: 18px;
 }
+
+.input:focus {
+    outline: 2px solid hsla(var(--bc) / 0.2);
+    outline-offset: 2px;
+}
